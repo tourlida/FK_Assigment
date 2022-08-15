@@ -2,7 +2,7 @@
 
 # Build docker image
 
-docker build -f Dockerfile -t <username>/node-web-app:1.0 .
+docker build -f Dockerfile -t username/node-web-app:1.0 .
 
 ## Notes
 
@@ -11,4 +11,9 @@ https://www.urlencoder.org/
 
 # Run docker image
 
-docker run -p 3000:8080 <your username>/node-web-app:1.0
+docker run -p 3000:8080 username/node-web-app:1.0
+
+# Build docker-compose
+
+Notes:
+Docker Compose example: https://www.bogotobogo.com/DevOps/Docker/Docker-Compose-Node-MongoDB.php
